@@ -17,6 +17,8 @@
     "import-glob-loader": "^1.1.0",
     "mini-css-extract-plugin": "^1.3.4",
     "node-sass": "^5.0.0",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
     "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.17.0",
