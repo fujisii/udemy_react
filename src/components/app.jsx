@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import SearchForm from './SearchForm';
 import GeocodeResult from './GeocodeResult';
+import Map from './Map';
 
 const GEOCODE_ENDPOINT = 'https://maps.googleapis.com/maps/api/geocode/json';
 
@@ -41,7 +42,6 @@ class App extends Component {
             },
           }],
         };
-
         const result = data.results[0];
         switch (data.status) {
           case 'OK': {
@@ -77,6 +77,7 @@ class App extends Component {
           lat={this.state.lat}
           lng={this.state.lng}
         />
+        <Map lat={this.state.lat} lng={this.state.lng} />
       </div>
     );
   }

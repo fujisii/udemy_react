@@ -21,6 +21,7 @@
     "prop-types": "^15.7.2",
     "react": "15.6.1",
     "react-dom": "15.6.1",
+    "react-google-maps": "^9.4.5",
     "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.17.0",
