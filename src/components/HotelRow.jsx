@@ -10,6 +10,7 @@ const HotelRow = ({ hotel }) => (
 HotelRow.propTypes = {
   hotel: PropTypes.shape({
     name: PropTypes.string,
+    url: PropTypes.string,
   }).isRequired,
 };
 
